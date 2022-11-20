@@ -1,3 +1,42 @@
 body {
-    margin: 0;
+    background-color: #2E86C1;
+    font-family: "Fredoka One";
+    overflow: hidden;
+}
+#canvas {
+    margin: -8px;
+    touch-action: none;
+}
+#mainMenu {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 550px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -48%;
+}
+#mainMenuTitle {
+    font-family: "Unica One";
+    font-size: 55px;
+    color: #F7DC6F;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.menuButton {
+    font-family: "Fredoka One";
+    font-size: 30px;
+    width: 270px;
+    height: 75px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.menuButton:hover {
+    background-color: #B3B6B7; 
+}
+.menuButton:active {
+    transform: scale(0.85);
 }
